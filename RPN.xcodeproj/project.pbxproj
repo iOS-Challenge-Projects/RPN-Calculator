@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		043B7B412441C759005351B3 /* DigitalAccumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B7B402441C759005351B3 /* DigitalAccumulator.swift */; };
+		043B7B432441E161005351B3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B7B422441E161005351B3 /* Calculator.swift */; };
 		047945A02441B1D900925BD5 /* RPN.h in Headers */ = {isa = PBXBuildFile; fileRef = 0479459E2441B1D900925BD5 /* RPN.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04B906152441BA7C00FC9A0A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B906142441BA7C00FC9A0A /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		043B7B402441C759005351B3 /* DigitalAccumulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalAccumulator.swift; sourceTree = "<group>"; };
+		043B7B422441E161005351B3 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		0479459B2441B1D900925BD5 /* RPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479459E2441B1D900925BD5 /* RPN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPN.h; sourceTree = "<group>"; };
 		0479459F2441B1D900925BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				0479459E2441B1D900925BD5 /* RPN.h */,
 				04B906142441BA7C00FC9A0A /* Stack.swift */,
 				043B7B402441C759005351B3 /* DigitalAccumulator.swift */,
+				043B7B422441E161005351B3 /* Calculator.swift */,
 				0479459F2441B1D900925BD5 /* Info.plist */,
 			);
 			path = RPN;
@@ -140,6 +143,7 @@
 			files = (
 				04B906152441BA7C00FC9A0A /* Stack.swift in Sources */,
 				043B7B412441C759005351B3 /* DigitalAccumulator.swift in Sources */,
+				043B7B432441E161005351B3 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

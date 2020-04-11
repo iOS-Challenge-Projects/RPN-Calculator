@@ -65,13 +65,12 @@ public struct DigitAccumulator {
                 return result + "."
             }
         }
-        
         return Double(stringValue)
     }
     
     
     /// Reset the accumulator
     public mutating func clear()  {
-        
+        digits.removeAll()
     }
 }
