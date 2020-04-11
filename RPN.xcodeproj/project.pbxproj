@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		047945A02441B1D900925BD5 /* RPN.h in Headers */ = {isa = PBXBuildFile; fileRef = 0479459E2441B1D900925BD5 /* RPN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B906152441BA7C00FC9A0A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B906142441BA7C00FC9A0A /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0479459B2441B1D900925BD5 /* RPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479459E2441B1D900925BD5 /* RPN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPN.h; sourceTree = "<group>"; };
 		0479459F2441B1D900925BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B906142441BA7C00FC9A0A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				0479459E2441B1D900925BD5 /* RPN.h */,
+				04B906142441BA7C00FC9A0A /* Stack.swift */,
 				0479459F2441B1D900925BD5 /* Info.plist */,
 			);
 			path = RPN;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					0479459A2441B1D900925BD5 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B906152441BA7C00FC9A0A /* Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		047945A42441B1D900925BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N3P8URX7UV;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.RPN;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		047945A52441B1D900925BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N3P8URX7UV;
