@@ -9,7 +9,7 @@
 import UIKit
 import RPN
 
-class ViewController: UIViewController {
+class CalculatorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
