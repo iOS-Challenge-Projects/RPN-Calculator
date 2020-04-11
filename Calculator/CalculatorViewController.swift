@@ -38,6 +38,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     private var digitAccmulator = DigitAccumulator() {
         didSet{
             if let value = digitAccmulator.value(){
+                
                 textField.text = numberFormatter.string(from: value as NSNumber)
             }else {
                 textField.text = ""
