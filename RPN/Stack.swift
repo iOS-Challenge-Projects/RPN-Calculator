@@ -17,7 +17,7 @@ struct Stack<Element>: ExpressibleByArrayLiteral {
     //MARK: - Properties
     
     //Array of type Element
-    var elements: [Element]
+    private(set) var elements: [Element]
     
     //ExpressibleByArrayLiteral required
     typealias ArrayLiteralElement = Element
@@ -45,7 +45,7 @@ struct Stack<Element>: ExpressibleByArrayLiteral {
     
     
     /// Get most recent element in the stack
-    /// - Returns: Most recent element in stack
+    /// - Returns: Most recent element in the stack
     func peek() -> Element? {
         return elements.last
     }
