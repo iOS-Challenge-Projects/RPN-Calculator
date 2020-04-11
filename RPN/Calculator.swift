@@ -23,7 +23,7 @@ public struct Calculator {
     public init () {}
     
     
-    private mutating func push(_ number: Double)  {
+    public mutating func push(_ number: Double)  {
         stack.push(number)
     }
     
